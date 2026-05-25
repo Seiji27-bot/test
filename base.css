@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 80px; /* 固定ヘッダー分の余白 */
+    overflow-x: hidden;
+    width: 100%;
+    
+    /* 背景画像の設定 */
+    background-image: url('Images/IMG_3654.JPG'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
